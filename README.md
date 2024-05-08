@@ -8,11 +8,13 @@ Install rkale in your project using poetry:
 poetry add rkale
 ```
 
-Use pip if you want a global installation:
+Use `pipx` if you want a global installation:
 
 ```bash
-pip install rkale
+pipx install rkale
 ```
+
+`pipx` installs it in an isolated environment to not mess with the rest of your system.
 
 ## Configuration
 
